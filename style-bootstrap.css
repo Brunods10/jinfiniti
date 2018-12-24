@@ -144,6 +144,13 @@ input[name="email"] {
 .how-it-works .card {
     cursor: pointer;
 }
+.how-it-works .card:before {
+    margin-left: auto;
+    content: "\2212";
+}
+.how-it-works .card.collapsed:before {
+    content: "\002b";
+}
 .how-it-works  img {
     margin: 0 auto;
     max-width: 100px;
