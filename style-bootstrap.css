@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body {
-  height: 100%;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  color: "#222";
-
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    color: "#222";
 }
 
 h1, h2, h3, h4 {
     padding: 0;
     margin: 0;
 }
-
+.row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 .container-fluid {
 }
 
@@ -59,7 +64,6 @@ h1, h2, h3, h4 {
     padding: 5% 10% 5% 10%;
 }
 .banner {    
-
     position: relative;
     margin-bottom: 0;
     /*background-image: url("img/astronomy-colors-dark-957040.jpg");
@@ -75,7 +79,6 @@ h1, h2, h3, h4 {
 }*/
 .banner h1, .banner h4 {
     color: white;
-    
     text-align: left;
 }
 .banner h1 {
@@ -203,7 +206,8 @@ footer img {
     }
 }
 @media (max-width: 576px) {
-    .container-fluid {
-        padding: 0;
+    html {
+        font-size: 12px;
     }
+
 }
