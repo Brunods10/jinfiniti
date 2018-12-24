@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Website for the Precision Medicine company Jinfinity Diagnostics">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="author" content="Bruno dos Santos">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jinfiniti Home</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style-bootstrap.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                            <ul class="nav-dropdown">
+                                <li>testng2testing2</li>
+                                <li>testing2</li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Connect</a>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Banner -->
+        <div class="container-fluid banner">
+            <!-- <img src="img/astronomy-colors-dark-957040.jpg" alt="banner-image"> -->
+            <div class="row padding">
+                <h1 style="display:none">We Provide Clarity and Direction to Personalize Cancer Treatments</h1>
+                <h1 class="col-12">We Personalize <br>Cancer Treatments</h1>
+                <h1 style="display:none">We personalize cancer treatment through biofunctional and genetic testing</h1>
+                
+                <div class="card beat col-md-5">
+                    <h4><span class="key-word" id="discover">Discover</span> which drugs work best against a patient's cancer</h4>
+                    <img src="img/caplet-capsule-close-up-161449.png" alt="BEATcancer">
+                    <a href="#" class="btn btn-primary">Learn About BEATcancer&trade;</a>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="card cup col-md-5">
+                    <h4><span class="key-word" id="identify">Identify</span> a cancer's tissue of origin and its targetable mutations</h4>
+                    <img src="img/dna-research-assay-tray-in-lab_4460x4460.png" alt="CUPid">
+                    <a href="#" class="btn btn-primary">Learn About CUPid</a>
+                </div>
+                <div class="col-12">
+                    <button>How We Can Help</button>
+                </div>
+                <div class="col-12 subscribe">
+                    <input type="text" name="email" value="Connect for Updates" onfocus="this.value=''">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </div>
+
+        </div>
+        <!-- Content: Precision Medicine -->
+        <div class="container-fluid content">
+            <div class="row padding">
+                <h2>Why Personalized Treatment Matters</h2>
+                <p>
+                    Cancers arise from combinations of DNA mutations that lead to uncontrolled cell growth. Some mutations make cancers <a href="blog.html/#resistance">resistant</a> to general treatment drugs. Precision medicine targets these mutations by learning what they are with specific drugs<sup><a href="references.html#1">1</a></sup>.
+                </p>
+            </div>
+        </div>
+        <!-- How it works -->
+        <div class="container-fluid how-it-works">
+            <div class="row padding">
+                <h2>How it works</h2>
+                <p>
+                    Once we receive the biopsy, you will receive results within one business week.
+                </p> 
+                <div class="card col-lg-3 col-md-6 icon" id="biopsy" data-toggle="collapse" data-target="#biopsy-text">
+                    <img src="img/119040-medical-elements/svg/hospital-4.svg">
+                    <div class="card-body">
+                        <div class="card-title">
+                            Getting a biopsy
+                        </div>
+                        <div class="card-text collapse" id="biopsy-text">
+                            <hr>
+                            <p>
+                                The first step is getting a tumor sample from a surgical biopsy. We will send the required package materials to the physician who will perform the biopsy. The physician then sends the package back to us over the mail.
+                            </p>
+                            <a href="#">
+                                See details on how to order and submit a test
+                            </a>
+                        </div>
+                    </div>
+                </div>   
+                <div class="card col-lg-3 col-md-6 icon" id="ngs" data-toggle="collapse" data-target="#ngs-text">
+                    <img src="img/119040-medical-elements/svg/dna.svg">
+                    <div class="card-body">
+                        <div class="card-title">
+                            Testing
+                        </div>
+                        <div class="card-text collapse" id="ngs-text">
+                            <hr>
+                            <p>
+                                This next step depends on the selected service:
+                            </p>
+                            <a href="#">BEATcancer&trade;</a>
+                            <p>
+                                Tests samples of the biopsy with combinations of 40 drugs at different doses using an approach called <a href="beat.html/#BEAT">Biofunctional Evaluation of Anticancer Therapies</a>.
+                            </p>
+                            <a href="#">CUPid</a>
+                            <p>
+                                Uses <a href="#ngs-text">next-generation sequencing</a> to determine mutations and measure the expression levels of each gene in the tumor sample.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 icon" id="analysis" data-toggle="collapse" data-target="#analysis-text">
+                    <img src="img/119040-medical-elements/svg/computer.svg">
+                    <div class="card-body">
+                        <div class="card-title">
+                            Data analysis
+                        </div>
+                        <div class="card-text collapse" id="analysis-text">
+                            <hr>
+                            <p>
+                                Our data analysis pipelines consist of <a href="cup.html/#ml">machine learning</a> and <a href="beat.html/#bioinformatics">bioinformatics</a> to report statistically significant results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 icon" data-toggle="collapse" data-target="#report-text">
+                    <img src="img/119040-medical-elements/svg/report.svg">
+                    <div class="card-body">
+                        <div class="card-title">
+                            Report
+                        </div>
+                        <div class="card-text collapse" id="report-text">
+                            <hr>
+                            <p>
+                                Once our <a href="#our-reports">comprehensive report</a> is complete we will immediately email the results to the patient's physician.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: none">Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"           title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"          title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        </div>
+        <!-- Services 
+        <div class="container-fluid services">
+            <div class="row padding">
+                <div class="col-12">
+                    <h2>Our services</h2>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card beat">
+                        <h4>BEATcancer&trade;</h4>
+                        <p>
+                            BEATcancer&trade; selects the combinations and concentrations of cancer drugs that best reduce the size of a patient's tumor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card cup">
+                        <h4>CUPid</h4>
+                        <p>
+                            Our machine learning pipeline is used to identify cancers of unkown primary site.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </body>
+    <!--- Footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/logo.png">
+                    <hr class="light">
+                    <p>555-555-5555</p>
+                    <p>email@yahoo.com</p>
+                    <p>street</p>
+                    <p>city, state, zip code</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our hours</h5>
+                    <hr class="light">
+                    <p>Monday - Saturday: 9am - 5pm</p>
+                    <p>Sunday: closed</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Service Area</h5>
+                    <hr class="light">
+                    <p>city, state, zip code</p>
+                    <p>city, state, zip code</p>
+                    <p>city, state, zip code</p>
+                    <p>city, state, zip code</p>
+                </div>
+                <!--- Socket -->
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; Jinfiniti.com</h5>
+    </footer>
+</html>

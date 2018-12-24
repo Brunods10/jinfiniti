@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: "#222";
+
+}
+
+h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+}
+
+.navbar {
+    z-index: 10;
+    
+}
+.navbar .container-fluid{
+}
+.navbar-brand img {
+    width: 10rem;
+    height: auto;
+    
+}
+.nav-dropdown {
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    height: 0;
+    opacity: 0;
+    transition-delay: 0.1s;
+    transition: 0.25s ease-out;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+}
+.nav-dropdown li {
+    display: inline-block;
+    padding: 0 2rem 0 2rem;
+}
+.nav-item:hover ul.nav-dropdown {
+    opacity: 1;
+    height: auto;
+    padding: 2rem 0 2rem 0;
+}
+
+.row {
+    padding: 5% 10% 5% 10%;
+}
+.banner {    
+
+    position: relative;
+    margin-bottom: 0;
+    /*background-image: url("img/astronomy-colors-dark-957040.jpg");
+    background-position: 85% 80%;*/
+    background-image: linear-gradient(140deg, #4388F3, blue);
+}
+/*.banner img{
+    z-index: -1;
+    bottom: 0;
+    position: absolute;
+    height: auto;
+    width: 100%;
+}*/
+.banner h1, .banner h4 {
+    color: white;
+    
+    text-align: left;
+}
+.banner h1 {
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    padding: 2rem 0 2rem 0rem;
+    text-shadow: 1px 1px 15px #000;
+}
+.banner h4 {
+    text-shadow: 0.2px 0.2px 5px #000;
+    font-weight: 10;
+}
+.banner .card {
+    background-color: transparent;
+    padding: 0;
+    border-color: transparent;
+    
+}
+.card.cup {
+
+}
+.card.cup img, .card.cup h4{
+}
+
+.card.beat {
+}
+.banner .key-word {
+    color: #F48830;
+}
+.banner .card img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: auto;
+    padding-bottom: 2rem;
+    max-width: 400px;
+
+}
+.banner .btn {
+    white-space: normal;
+    background-color: #F48830;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.banner .btn:hover {
+    color: #f5f5f5;
+    opacity: 0.9;
+}
+input[name="email"] {
+    color: #b5b5b5;
+}
+.banner button {
+    display: none;
+}
+.subscribe {
+    display: none;
+    margin-top: auto;
+}
+
+.services {
+    
+}
+.services h2 {
+    padding: 0rem 0 1rem 0rem;  
+}
+.how-it-works .card {
+    cursor: pointer;
+}
+.how-it-works  img {
+    margin: 0 auto;
+    max-width: 100px;
+    padding-top: 1rem;
+}
+.how-it-works a {
+    z-index: 1;
+}
+
+footer {
+  background-color: #f5f5f5;
+  color: black;
+  padding-top: 2rem;
+}
+footer img {
+    width: 180px;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    .container-fluid {
+        padding: 0;
+    }
+    .banner h1 {
+        padding: 6rem 0 6rem 0rem;
+    }
+}
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0;
+    }
+    /*.banner img{
+        z-index: -1;
+        top: 0;
+        position: absolute;
+        height: auto;
+        width: 100%;
+    }*/
+    .banner .card {
+        padding: 0;
+    }
+    .banner h1{
+        padding-left: 0;
+    }
+    .banner .card img {
+        width: 50%;
+        height: auto;
+    }
+}
+@media (max-width: 576px) {
+    .container-fluid {
+        padding: 0;
+    }
+}
